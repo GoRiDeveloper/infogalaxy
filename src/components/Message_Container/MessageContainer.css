@@ -1,0 +1,57 @@
+.message__container {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 1;
+
+}
+
+.message__text {
+
+    margin-bottom: 1.4rem;
+    padding: 2.8rem 1.35rem;
+    background: linear-gradient(180deg, var(--color-white), #ffffff2d);
+    border-radius: 1rem;
+    color: var(--color-blue);
+    font-weight: 700;
+    text-align: center;
+    transition: transform .3s ease;
+
+}
+
+.message__text:hover {
+
+    transform: scale(1.1);
+
+}
+
+.message__btn {
+
+    background-color: var(--color-white);
+    border-radius: 50%;
+    box-shadow: 0 0 1rem rgba(255 255 255 / 1);
+
+}
+
+.message__icon {
+
+    fill: var(--color-blue);
+
+}
+
+.mesagge__icon--rotate {
+
+    animation: rotate linear .2s;
+
+}
+
+@media (max-width: 495px) {
+
+    .message__text:hover {
+
+        transform: none;
+
+    }
+
+}

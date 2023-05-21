@@ -1,0 +1,71 @@
+.message {
+
+    width: min(100%, 450px);
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    justify-items: center;
+    color: var(--color-white);
+
+}
+
+.message__heading {
+
+    margin: 5rem 0;
+    color: var(--color-white);
+    font-size: 2rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+
+}
+
+.message__footer {
+
+    position:absolute;
+    bottom: 0;
+    width: 25rem;
+    height: 25rem;
+    overflow: hidden;
+
+}
+
+.message__image {
+
+    position: absolute;
+    top: 50%;
+    border-radius: 50%;
+    box-shadow: 1px 0 10px var(--color-blue);
+    animation: rotate 8s linear infinite;
+
+}
+
+.message__source {
+
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: transparent;
+    font-size: 1rem;
+    font-family: var(--secondary-font);
+    font-weight: 900;
+    -webkit-text-stroke: 1px var(--color-black);
+
+}
+
+@keyframes rotate {
+ 
+    from {
+
+        transform: rotate(0deg);
+
+    }
+
+    to {
+
+        transform:rotate(360deg);
+
+    }
+
+}
