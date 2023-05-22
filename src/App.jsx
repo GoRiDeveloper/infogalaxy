@@ -16,10 +16,10 @@ const
   // PLANET IMAGES ARRAY
   ARR_PLANETS   = [
 
-    "/public/assets/img/planets/Moon.png", 
-    "/public/assets/img/planets/Earth.webp", 
-    "/public/assets/img/planets/Jupiter.webp", 
-    "/public/assets/img/planets/Venus.webp"
+    "/assets/img/planets/Moon.png", 
+    "/assets/img/planets/Earth.webp", 
+    "/assets/img/planets/Jupiter.webp", 
+    "/assets/img/planets/Venus.webp"
   
   ], 
   ARR_PLANETS_LENGTH = ARR_PLANETS.length,
